@@ -2,104 +2,136 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>About Me</title>
-</head>
-<body style="margin:0; font-family:Arial, sans-serif; background-color:#e6f2ff;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities</title>
 
+<style>
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #d6eaff;
+}
+
+th, td {
+    padding: 12px;
+    border: 2px solid #4a90e2;
+}
+
+th {
+    background: #4a90e2;
+    color: white;
+}
+
+
+.activity-img {
+    width: 60%;
+    border-radius: 8px;
+}
+
+/* BUTTON AREA */
 .nav-buttons {
     text-align: center;
-    margin-top: 30px;
-    width: 100%;
+    margin: 40px 0 20px 0;
 }
 
 .nav-buttons button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 5px;
+    padding: 14px 32px;   
+    margin: 0 10px;
+    font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
+    cursor: pointer;
     background-color: #cd5eb1;
     color: white;
-    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
 .nav-buttons button:hover {
     background-color: #eb7fe4;
+    transform: translateY(-2px);
+}
+</style>
+</head>
 
-<table border="1" width="70%" align="center" cellpadding="10" style="background-color:white;">
+<body>
+
+<h2>ACTIVITIES</h2>
+
+<table>
 <tr>
-<th colspan="2" style="background-color:#cc6600;">
-<h1>About Me</h1>
-</th>
+    <th>No.</th>
+    <th>Activity</th>
 </tr>
-
 <tr>
-<td><strong>Title</strong></td>
-<td>My Resume Website</td>
+    <td>1</td>
+    <td>Handled a big program and involved with other programs during studies</td>
 </tr>
-
 <tr>
-   <td><strong>Name</strong></td>
-   <td>Diniy Syazianie binti Saiful Azli</td>
+    <td>2</td>
+    <td>Involved with international student exchange program</td>
 </tr>
-
 <tr>
-   <td><strong>Student ID</strong></td>
-   <td>2025396745</td>
+    <td>3</td>
+    <td>Involved and handled charity sales program</td>
 </tr>
-
 <tr>
-   <td><strong>Group</strong></td>
-   <td>CDIM262ST1</td>
+    <td>4</td>
+    <td>Holding a college representative position (Jawatankuasa Perwakilan Kolej)</td>
 </tr>
-
-<tr>
-   <td><strong>Course Code</strong></td>
-   <td>CDIM262</td>
-</tr>
-
-<tr>
-   <td><strong>Program Code</strong></td>
-   <td>IMS458</td>
-</tr>
-
-<tr>
-   <td><strong>Faculty</strong></td>
-   <td>Faculty of Information Science Management</td>
-</tr>
-
-<tr>
-   <td><strong>Submission Date</strong></td>
-   <td>16 December 2025</td>
-</tr>
-
-<tr>
-   <td><strong>Published URL</strong></td>
-   <td><a href="https://2025396745.github.io/resumediniy/" target="_blank">
-    https://2025396745.github.io/resumediniy/
-  </a>
-   </td>
-</tr>
-
-<tr>
-   <td><strong>Image</strong></td>
-   <td><img src="image/diniy-resume-pic.jpg" alt="My Photo" width="170" align="center"></td>
-</tr>
-
-   <div class="nav-buttons">
-  <button onclick="window.history.back()">⬅ Back</button>
-  <button onclick="window.location.href='homepage.html'">Home</button>
-</div>
-   
 </table>
+
+<h2>REFERENCES</h2>
+<p style="text-align:center;">Some programs that I handled during my Degree studies</p>
+
+<table>
+<tr>
+    <th>Image</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td style="text-align:center;">
+        <img src="image/fesko_2025.jpg" class="activity-img" alt="FESKO 2025">
+    </td>
+    <td>FESKO 2025 at UiTM Puncak Perdana</td>
+</tr>
+<tr>
+    <td style="text-align:center;">
+        <img src="image/lego_fesko.jpg" class="activity-img" alt="Lego FESKO">
+    </td>
+    <td>Build & Bond Lego Challenge – FESKO 2025</td>
+</tr>
+<tr>
+    <td style="text-align:center;">
+        <img src="image/booth_fesko.jpg" class="activity-img" alt="Booth FESKO">
+    </td>
+    <td>Vendor Booth during FESKO 2025</td>
+</tr>
+</table>
+
+<!-- BUTTON TENGAH BAWAH TABLE -->
+<div class="nav-buttons">
+    <button onclick="history.back()">⬅ Back</button>
+    <button onclick="window.location.href='homepage.html'"> Home</button>
+</div>
+
 </body>
 </html>
-
-
-
-
-
 
 
 
