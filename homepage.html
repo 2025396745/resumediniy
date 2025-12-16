@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage - Diniy Syazianie</title>
+  <link rel="stylesheet" href="style.css">
+<style>
+
+.sidebar {
+  width: 250px;
+  background-color: #222;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding:0;
+  text-align: center;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: #444;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: #cd5eb1;
+}
+
+.main {
+  margin-left: 250px;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.main img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 300px;
+  height: 320px;
+  border-radius: 50%;
+  border: 5px solid lightblue;
+  object-fit: cover;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.skills .stars {
+  font-size: 18px;
+  color: gold;
+  margin-left: 10px;
+}
+
+progress {
+  width: 200px;
+  height: 15px;
+  margin-left: 10px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #c95fc5;
+  color: white;
+  clear: both; 
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+  font-size: 14px;
+  position: relative;
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Mainpage</a></li>
+      <li><a href="homepage.html" class="active">Home</a></li>
+      <li><a href="activities.html">Activity</a></li>
+      <li><a href="personalities.html">Personality</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="achievement.html">Achievement</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="main">
+
+  <img src="image/diniy-resume-pic.jpg" alt="Diniy Syazianie">
+
+  <section id="home">
+    <h1>Welcome. Let's Get to Know Me</h1>
+    <p>Hi! My name is <strong>Diniy Syazianie Binti Saiful Azli</strong>. I am a student passionate about Web Designing and Programming.</p>
+  </section>
+
+  <hr>
+
+  <h2>Curriculum Vitae (CV)</h2>
+
+  <h3>Personal Information</h3>
+  <ul>
+    <li><strong>Name:</strong> Diniy Syazianie Binti Saiful Azli</li>
+    <li><strong>Email:</strong> syazianiediniy@gmail.com</li>
+    <li><strong>Phone:</strong> 013-5140638</li>
+    <li><strong>Address:</strong> 32, Lorong 3 Kampung Dato Sri Kmaruddin Sri Manjung, Perak</li>
+  </ul>
+
+  <h3>Education Background</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Institution</th>
+        <th>Qualification</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010 - 2015</td>
+        <td>Sekolah Rendah Kebangsaan Bandar Baru Rawang</td>
+        <td>UPSR Certificate</td>
+      </tr>
+      <tr>
+        <td>2016 - 2021</td>
+        <td>Sekolah Menengah Kebangsaan Sri Garing</td>
+        <td>SPM Certificate (5A,2B,1C)</td>
+      </tr>
+      <tr>
+        <td>2021 - 2023</td>
+        <td>Politeknik Sultan Azlan Shah</td>
+        <td>Diploma in Marketing, CGPA: 3.49</td>
+      </tr>
+      <tr>
+        <td>2024 - Now</td>
+        <td>Universiti Teknologi Mara (UiTM)</td>
+        <td>Bachelor of Information Science (Honors) Information System Management</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Work Experience</h3>
+  <ol>
+    <li>
+      <strong>21 GRILLED MANJUNG, PERAK</strong> <br>
+      <em>October 2024 - March 2025</em>
+      <ul>
+        <li>All role kitchen (Barista, Cashier, Waiter)</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>JUTA NIAGA LEGASI SDN.BHD</strong> <br>
+      <em>January 2024 - June 2024</em>
+      <ul>
+        <li>Property sales and buyer handling</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>ENG GUAN HOME DEPOT (M) SDN.BHD</strong> <br>
+      <em>June 2023 - August 2023</em>
+      <ul>
+        <li>Goods handling and packaging based on orders</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h3>Skills</h3>
+  <ul class="skills">
+    <li>Microsoft Word <span class="stars">★★★★★</span></li>
+    <li>Microsoft Excel <span class="stars">★★★★</span></li>
+    <li>PowerPoint Slides <span class="stars">★★★★★</span></li>
+  </ul>
+
+  <h3>Languages</h3>
+  <ul>
+    <li>Malay <progress value="100" max="100"></progress></li>
+    <li>English <progress value="70" max="100"></progress></li>
+    <li>Mandarin <progress value="30" max="100"></progress></li>
+  </ul>
+
+  <h3>Strengths</h3>
+  <ul>
+    <li>Able to adapt to new environments</li>
+    <li>Able to work in team or solo</li>
+    <li>College Representative at UiTM Puncak Perdana (2025)</li>
+  </ul>
+
+  <p>To know more about me, <a href="aboutme.html">click here</a>.</p>
+</div>
+
+<footer>
+  <p>&copy; 2025 Diniy Syazianie Saiful Azli. All rights reserved.</p>
+  <p>Contact: <a href="mailto:syazianiediniy@gmail.com">syazianiediniy@gmail.com</a> |      
+     Phone: <a href="tel:0135140638">013-5140638</a></p>
+</footer>
+
+</body>
+</html>
