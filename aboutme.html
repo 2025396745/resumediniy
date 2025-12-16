@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Activities</title>
+<title>About Me</title>
 
 <style>
 body {
@@ -19,7 +19,6 @@ h2 {
     color: #4a90e2;
 }
 
-
 table {
     width: 90%;
     margin: 20px auto;
@@ -30,27 +29,30 @@ table {
 th, td {
     padding: 12px;
     border: 2px solid #4a90e2;
+    vertical-align: top;
 }
 
 th {
     background: #4a90e2;
     color: white;
+    width: 30%;
 }
 
-
-.activity-img {
-    width: 60%;
-    border-radius: 8px;
+.profile-img {
+    width: 180px;
+    height: 240px;
+    border-radius: 50% / 60%;
+    object-fit: cover;
+    border: 4px solid #cd5eb1;
 }
 
-/* BUTTON AREA */
 .nav-buttons {
     text-align: center;
     margin: 40px 0 20px 0;
 }
 
 .nav-buttons button {
-    padding: 14px 32px;   
+    padding: 14px 32px;
     margin: 0 10px;
     font-size: 18px;
     border: none;
@@ -71,67 +73,47 @@ th {
 
 <body>
 
-<h2>ACTIVITIES</h2>
+<h2>ABOUT ME</h2>
 
 <table>
 <tr>
-    <th>No.</th>
-    <th>Activity</th>
+    <th rowspan="4" style="text-align:center;">
+    <img src="image/diniy_resume_pic.jpg" alt="My Photo" class="profile-img">
+    </th>
+    <th>Full Name</th>
+    <td>Diniy Syazianie</td>
 </tr>
+
 <tr>
-    <td>1</td>
-    <td>Handled a big program and involved with other programs during studies</td>
+    <th>Education</th>
+    <td>Degree Student at UiTM Puncak Perdana</td>
 </tr>
+
 <tr>
-    <td>2</td>
-    <td>Involved with international student exchange program</td>
+    <th>Skills</th>
+    <td>
+        • Leadership <br>
+        • Event Management <br>
+        • Teamwork <br>
+        • Communication
+    </td>
 </tr>
+
 <tr>
-    <td>3</td>
-    <td>Involved and handled charity sales program</td>
-</tr>
-<tr>
-    <td>4</td>
-    <td>Holding a college representative position (Jawatankuasa Perwakilan Kolej)</td>
+    <th>About</th>
+    <td>
+        A motivated and responsible student with experience in handling programs,
+        committee work, and student representative roles. Passionate about teamwork
+        and personal growth.
+    </td>
 </tr>
 </table>
 
-<h2>REFERENCES</h2>
-<p style="text-align:center;">Some programs that I handled during my Degree studies</p>
-
-<table>
-<tr>
-    <th>Image</th>
-    <th>Description</th>
-</tr>
-<tr>
-    <td style="text-align:center;">
-        <img src="image/fesko_2025.jpg" class="activity-img" alt="FESKO 2025">
-    </td>
-    <td>FESKO 2025 at UiTM Puncak Perdana</td>
-</tr>
-<tr>
-    <td style="text-align:center;">
-        <img src="image/lego_fesko.jpg" class="activity-img" alt="Lego FESKO">
-    </td>
-    <td>Build & Bond Lego Challenge – FESKO 2025</td>
-</tr>
-<tr>
-    <td style="text-align:center;">
-        <img src="image/booth_fesko.jpg" class="activity-img" alt="Booth FESKO">
-    </td>
-    <td>Vendor Booth during FESKO 2025</td>
-</tr>
-</table>
-
-<!-- BUTTON TENGAH BAWAH TABLE -->
 <div class="nav-buttons">
     <button onclick="history.back()">⬅ Back</button>
-    <button onclick="window.location.href='homepage.html'"> Home</button>
+    <button onclick="window.location.href='homepage.html'">🏠 Home</button>
 </div>
 
 </body>
 </html>
-
-
 
